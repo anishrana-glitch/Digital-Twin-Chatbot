@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@theme {
+  --color-error-container: #93000a;
+  --color-outline-variant: #464554;
+  --color-surface-bright: #38393f;
+  --color-on-error-container: #ffdad6;
+  --color-primary-fixed: #e1e0ff;
+  --color-on-primary: #1000a9;
+  --color-on-surface-variant: #c7c4d7;
+  --color-primary: #c0c1ff;
+  --color-error: #ffb4ab;
+  --color-on-primary-fixed-variant: #2f2ebe;
+  --color-on-tertiary-fixed: #001f26;
+  --color-inverse-on-surface: #2f3036;
+  --color-on-tertiary: #003640;
+  --color-on-secondary-container: #c4abff;
+  --color-on-surface: #e3e1e9;
+  --color-secondary-fixed-dim: #d0bcff;
+  --color-secondary-fixed: #e9ddff;
+  --color-primary-container: #8083ff;
+  --color-on-background: #e3e1e9;
+  --color-tertiary: #4cd7f6;
+  --color-outline: #908fa0;
+  --color-surface: #121318;
+  --color-on-primary-container: #0d0096;
+  --color-tertiary-fixed-dim: #4cd7f6;
+  --color-on-tertiary-container: #002f38;
+  --color-surface-container-highest: #34343a;
+  --color-tertiary-container: #009eb9;
+  --color-secondary: #d0bcff;
+  --color-surface-variant: #34343a;
+  --color-on-secondary-fixed: #23005c;
+  --color-background: #121318;
+  --color-on-primary-fixed: #07006c;
+  --color-tertiary-fixed: #acedff;
+  --color-on-error: #690005;
+  --color-surface-tint: #c0c1ff;
+  --color-inverse-primary: #494bd6;
+  --color-on-tertiary-fixed-variant: #004e5c;
+  --color-surface-dim: #121318;
+  --color-surface-container: #1e1f25;
+  --color-surface-container-high: #292a2f;
+  --color-surface-container-low: #1a1b21;
+  --color-inverse-surface: #e3e1e9;
+  --color-on-secondary-fixed-variant: #5516be;
+  --color-secondary-container: #571bc1;
+  --color-on-secondary: #3c0091;
+  --color-surface-container-lowest: #0d0e13;
+  --color-primary-fixed-dim: #c0c1ff;
+
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-xl: 2.5rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-margin: 2rem;
+  --spacing-space-md: 1rem;
+  --spacing-margin-mobile: 1rem;
+  --spacing-gutter-mobile: 1rem;
+  --spacing-gutter: 1.5rem;
+  --spacing-space-lg: 1.5rem;
+
+  --font-headline-xl: "Plus Jakarta Sans";
+  --font-body-lg: "Inter";
+  --font-body-md: "Inter";
+  --font-headline-xl-mobile: "Plus Jakarta Sans";
+  --font-label-sm: "Inter";
+  --font-metric-counter: "Plus Jakarta Sans";
+  --font-display-lg: "Plus Jakarta Sans";
+  --font-headline-md: "Plus Jakarta Sans";
+  --font-headline-lg: "Plus Jakarta Sans";
+  --font-label-md: "Inter";
+  --font-label-lg: "Inter";
+  --font-display-lg-mobile: "Plus Jakarta Sans";
+  --font-body-sm: "Inter";
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@utility animate-fade-in {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+@layer base {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-body-md), sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-on-surface);
+  }
+  body {
+    overscroll-behavior: none;
+  }
+  main > :first-child {
+    margin-top: 0 !important;
+  }
+  main > :last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

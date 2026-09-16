@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "error-container": "#93000a", "outline-variant": "#464554", "surface-bright": "#38393f", "on-error-container": "#ffdad6", "primary-fixed": "#e1e0ff", "on-primary": "#1000a9", "on-surface-variant": "#c7c4d7", "primary": "#c0c1ff", "error": "#ffb4ab", "on-primary-fixed-variant": "#2f2ebe", "on-tertiary-fixed": "#001f26", "inverse-on-surface": "#2f3036", "on-tertiary": "#003640", "on-secondary-container": "#c4abff", "on-surface": "#e3e1e9", "secondary-fixed-dim": "#d0bcff", "secondary-fixed": "#e9ddff", "primary-container": "#8083ff", "on-background": "#e3e1e9", "tertiary": "#4cd7f6", "outline": "#908fa0", "surface": "#121318", "on-primary-container": "#0d0096", "tertiary-fixed-dim": "#4cd7f6", "on-tertiary-container": "#002f38", "surface-container-highest": "#34343a", "tertiary-container": "#009eb9", "secondary": "#d0bcff", "surface-variant": "#34343a", "on-secondary-fixed": "#23005c", "background": "#121318", "on-primary-fixed": "#07006c", "tertiary-fixed": "#acedff", "on-error": "#690005", "surface-tint": "#c0c1ff", "inverse-primary": "#494bd6", "on-tertiary-fixed-variant": "#004e5c", "surface-dim": "#121318", "surface-container": "#1e1f25", "surface-container-high": "#292a2f", "surface-container-low": "#1a1b21", "inverse-surface": "#e3e1e9", "on-secondary-fixed-variant": "#5516be", "secondary-container": "#571bc1", "on-secondary": "#3c0091", "surface-container-lowest": "#0d0e13", "primary-fixed-dim": "#c0c1ff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xs": "0.25rem", "space-xl": "2.5rem", "space-sm": "0.5rem", "margin": "2rem", "space-md": "1rem", "margin-mobile": "1rem", "gutter-mobile": "1rem", "gutter": "1.5rem", "space-lg": "1.5rem" }, "fontFamily": { "headline-xl": [ "Plus Jakarta Sans" ], "body-lg": [ "Inter" ], "body-md": [ "Inter" ], "headline-xl-mobile": [ "Plus Jakarta Sans" ], "label-sm": [ "Inter" ], "metric-counter": [ "Plus Jakarta Sans" ], "display-lg": [ "Plus Jakarta Sans" ], "headline-md": [ "Plus Jakarta Sans" ], "headline-lg": [ "Plus Jakarta Sans" ], "label-md": [ "Inter" ], "label-lg": [ "Inter" ], "display-lg-mobile": [ "Plus Jakarta Sans" ], "body-sm": [ "Inter" ] }, "fontSize": { "headline-xl": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.025em", "fontWeight": "600" } ], "body-lg": [ "16px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "400" } ], "body-md": [ "14px", { "lineHeight": "22px", "letterSpacing": "-0.005em", "fontWeight": "400" } ], "headline-xl-mobile": [ "26px", { "lineHeight": "34px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "label-sm": [ "10px", { "lineHeight": "14px", "letterSpacing": "0.05em", "fontWeight": "600" } ], "metric-counter": [ "28px", { "lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "display-lg": [ "48px", { "lineHeight": "56px", "letterSpacing": "-0.03em", "fontWeight": "700" } ], "headline-md": [ "20px", { "lineHeight": "28px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "headline-lg": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "-0.01em", "fontWeight": "500" } ], "display-lg-mobile": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "body-sm": [ "12px", { "lineHeight": "18px", "letterSpacing": "0em", "fontWeight": "400" } ] } } } }</script></head><body class="bg-background font-body-md text-on-surface min-h-screen relative overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container"><div class="pointer-events-none fixed inset-0 z-0 overflow-hidden"><div class="absolute -top-40 -left-40 w-96 h-96 rounded-full bg-primary-container/10 blur-[120px]"></div><div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-tertiary-container/10 blur-[120px]"></div></div><aside class="fixed left-0 top-0 bottom-0 w-64 bg-surface-container-lowest/80 backdrop-blur-xl z-50 flex flex-col justify-between p-space-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col gap-space-lg"><div class="flex items-center gap-space-sm px-space-xs"><img alt="My Digital Twin Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1X4PvzGR5Bnx7yxxWrDoIXez9x1x-3IHcVQUSVmYKEQJyPxHHcXiz85CPa9LPBAi9PGws2GIh4Z1pCRfjH0H868ecjk778tA-m_85kRUOWBZQ3wUZrw0zwMTDs0JhcNP6ch5aYkTPvSmBZzt586EeVXvizEkeyN_6b8GxhId4avvIGQMj2eNCPOGPr11CIskP-DLGbTGDqUzq1znBq0aUVMMo-qGy3FGggIT82GIOlDI2Vy1FKW_OOtdVI"/><div class="flex flex-col"><div class="flex items-center gap-space-xs"><span class="font-headline-md text-headline-md text-on-surface font-semibold tracking-tight">Twin</span><span class="px-space-xs py-0.5 rounded bg-surface-container-high text-tertiary font-label-sm text-label-sm tracking-wider uppercase font-semibold">PRO V2.4</span></div></div></div><nav class="flex flex-col gap-1" data-active-classes="bg-surface-container-high text-primary font-medium"><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="dashboard" href="#"><span class="material-symbols-outlined text-[20px]">space_dashboard</span><span class="font-label-lg text-label-lg">Dashboard</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="create-twin" href="#"><span class="material-symbols-outlined text-[20px]">psychology</span><span class="font-label-lg text-label-lg">Create Twin</span></a><a aria-current="page" class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg transition-colors bg-surface-container-high text-primary font-medium" data-path="chat" href="#"><span class="material-symbols-outlined text-[20px]">forum</span><span class="font-label-lg text-label-lg">Chat</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="share" href="#"><span class="material-symbols-outlined text-[20px]">share</span><span class="font-label-lg text-label-lg">Share</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="settings" href="#"><span class="material-symbols-outlined text-[20px]">tune</span><span class="font-label-lg text-label-lg">Settings</span></a></nav></div><div class="flex flex-col gap-space-md pt-space-md"><div class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg bg-surface-container-low"><div class="relative flex items-center justify-center w-2 h-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary opacity-75"></span><span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-tertiary"></span></div><span class="font-label-sm text-label-sm text-on-surface-variant">Model Synced • Latency 14ms</span></div><div class="flex items-center justify-between p-space-sm rounded-xl bg-surface-container-low"><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-full bg-surface-container-highest flex items-center justify-center overflow-hidden"><span class="material-symbols-outlined text-primary text-[20px]">fingerprint</span></div><div class="flex flex-col"><span class="font-label-md text-label-md text-on-surface font-medium leading-none">Alex Vance</span><span class="font-label-sm text-label-sm text-tertiary mt-0.5">Persona Active</span></div></div><span class="material-symbols-outlined text-outline text-[18px]">more_vert</span></div></div></aside><div class="pl-64 flex flex-col min-h-screen relative z-10"><header class="fixed top-0 left-64 right-0 z-40 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md flex-1"><div class="flex items-center gap-space-xs"><span class="font-label-md text-label-md text-on-surface-variant">Console</span><span class="font-label-md text-label-md text-outline">/</span><span class="font-label-md text-label-md text-on-surface font-semibold">Twin Orchestrator</span></div><div class="hidden md:flex items-center gap-space-sm px-space-md py-1.5 rounded-lg bg-surface-container-low text-on-surface-variant max-w-xs w-full"><span class="material-symbols-outlined text-[16px]">search</span><span class="font-body-sm text-body-sm text-outline flex-1">Search models, memories...</span><kbd class="px-1.5 py-0.5 rounded bg-surface-container-high font-label-sm text-label-sm text-outline">⌘K</kbd></div></div><div class="flex items-center gap-space-md"><div class="hidden sm:flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-low"><span class="w-2 h-2 rounded-full bg-tertiary"></span><span class="font-label-sm text-label-sm text-on-surface-variant">Neural Engine v4.2 Online</span></div><a class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container hover:text-on-primary-container transition-all shadow-[0_0_20px_rgba(99,102,241,0.2)]" data-path="chat" href="#"><span class="material-symbols-outlined text-[18px]">play_arrow</span><span>Test Chat</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 px-gutter bg-transparent flex-1"><div class="flex flex-col w-full max-w-7xl mx-auto pb-12">
+<!-- Top Chat Context Bar -->
+<section class="w-full bg-surface-container-lowest/90 backdrop-blur-2xl rounded-2xl p-space-md shadow-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md mb-space-md relative overflow-hidden">
+<div class="absolute -right-20 -top-20 w-64 h-64 bg-primary-container/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute left-1/3 -bottom-10 w-48 h-48 bg-tertiary-container/10 rounded-full blur-2xl pointer-events-none"></div>
+<!-- Twin Meta Profile -->
+<div class="flex items-center gap-space-md z-10">
+<div class="relative flex-shrink-0">
+<div class="w-14 h-14 rounded-full p-0.5 bg-gradient-to-tr from-primary via-secondary to-tertiary shadow-[0_0_24px_rgba(192,193,255,0.35)]">
+<img alt="Alex AI Holographic Twin Avatar" class="w-full h-full object-cover rounded-full bg-surface-container-highest" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLUtQ206zcMM03QTK5Eu36SKQyuMS55bdjsZP63TbHm4qPafHngbessgLNrTwif1MO1Xq-8C4NjwLLgoVhegxUN5Mjyyl4d2KWaTPo6CpSVoxVPAT43BWTCBEq1UlxhQhEyTs7UH6OP8p0LRuLijSS7cI6ODflgt43MZJklHKCQVfOwohsykGyE7IkLHvoKcGR3szxVJWz4_YeNukxXyUfLDV6H7IGyY9eYJfKjfziherZTePH-00S"/>
+</div>
+<div class="absolute bottom-0 right-0 w-3.5 h-3.5 rounded-full bg-surface-container-lowest flex items-center justify-center p-0.5">
+<span class="w-full h-full rounded-full bg-tertiary shadow-[0_0_8px_#4cd7f6] animate-pulse"></span>
+</div>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-sm flex-wrap">
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight font-semibold">Alex AI</h2>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-secondary-container/50 text-secondary tracking-wider font-semibold uppercase">Your Twin</span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container-high text-tertiary">
+<span class="material-symbols-outlined text-[12px]">verified</span>
+            96.4% Fidelity
+          </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate mt-0.5">
+          Mimicking: <span class="text-on-surface font-medium">Direct, analytical, dry wit</span> • 14ms Neural Inference
+        </p>
+</div>
+</div>
+<!-- Right Utility Controls -->
+<div class="flex items-center gap-space-xs z-10 w-full md:w-auto justify-end">
+<button class="flex items-center gap-space-xs px-space-sm py-2 rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all" id="clearChatBtn" type="button">
+<span class="material-symbols-outlined text-[18px]">delete_sweep</span>
+<span class="font-label-md text-label-md hidden sm:inline">Clear conversation</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-sm py-2 rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">file_download</span>
+<span class="font-label-md text-label-md hidden sm:inline">Export Transcript</span>
+</button>
+<div class="h-6 w-px bg-surface-container-highest mx-space-xs"></div>
+<a class="p-2 rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-primary transition-all" data-path="settings" href="#" title="Twin Settings">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+</a>
+</div>
+</section>
+<!-- Suggested Conversation Starters Carousel -->
+<section class="w-full mb-space-lg flex items-center gap-space-sm overflow-x-auto pb-2 scrollbar-none">
+<div class="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-surface-container-low text-outline flex-shrink-0">
+<span class="material-symbols-outlined text-[16px] text-tertiary">auto_awesome</span>
+<span class="font-label-sm text-label-sm tracking-wider uppercase font-semibold text-on-surface-variant">Prompts</span>
+</div>
+<button class="prompt-pill group flex items-center gap-2 px-space-md py-1.5 rounded-full bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-primary transition-all whitespace-nowrap shadow-sm" type="button">
+<span class="font-label-md text-label-md">“Explain our philosophy on startup MVPs”</span>
+<span class="material-symbols-outlined text-[14px] opacity-0 group-hover:opacity-100 transition-opacity text-primary">full_hd</span>
+</button>
+<button class="prompt-pill group flex items-center gap-2 px-space-md py-1.5 rounded-full bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-primary transition-all whitespace-nowrap shadow-sm" type="button">
+<span class="font-label-md text-label-md">“How do you feel about working remotely vs in-office?”</span>
+<span class="material-symbols-outlined text-[14px] opacity-0 group-hover:opacity-100 transition-opacity text-primary">full_hd</span>
+</button>
+<button class="prompt-pill group flex items-center gap-2 px-space-md py-1.5 rounded-full bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-primary transition-all whitespace-nowrap shadow-sm" type="button">
+<span class="font-label-md text-label-md">“Roast my latest landing page copy”</span>
+<span class="material-symbols-outlined text-[14px] opacity-0 group-hover:opacity-100 transition-opacity text-primary">full_hd</span>
+</button>
+<button class="prompt-pill group flex items-center gap-2 px-space-md py-1.5 rounded-full bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-primary transition-all whitespace-nowrap shadow-sm" type="button">
+<span class="font-label-md text-label-md">“What are you reading this weekend?”</span>
+<span class="material-symbols-outlined text-[14px] opacity-0 group-hover:opacity-100 transition-opacity text-primary">full_hd</span>
+</button>
+</section>
+<!-- Main Chat Stream Container -->
+<div class="flex flex-col gap-space-lg mb-space-xl min-h-[460px]" id="chatMessageStream">
+<!-- Timeline Anchor -->
+<div class="flex items-center justify-center gap-space-md my-space-xs">
+<div class="h-px bg-surface-container-high flex-1 max-w-xs"></div>
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-widest px-space-sm py-0.5 rounded bg-surface-container-lowest">Calibrated Session • Today</span>
+<div class="h-px bg-surface-container-high flex-1 max-w-xs"></div>
+</div>
+<!-- AI / Twin Message 1 -->
+<div class="flex items-start gap-space-md max-w-3xl group">
+<div class="w-10 h-10 rounded-full flex-shrink-0 overflow-hidden bg-surface-container-high shadow-[0_0_16px_rgba(76,215,246,0.2)]">
+<img alt="Alex AI Hologram" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLUtQ206zcMM03QTK5Eu36SKQyuMS55bdjsZP63TbHm4qPafHngbessgLNrTwif1MO1Xq-8C4NjwLLgoVhegxUN5Mjyyl4d2KWaTPo6CpSVoxVPAT43BWTCBEq1UlxhQhEyTs7UH6OP8p0LRuLijSS7cI6ODflgt43MZJklHKCQVfOwohsykGyE7IkLHvoKcGR3szxVJWz4_YeNukxXyUfLDV6H7IGyY9eYJfKjfziherZTePH-00S"/>
+</div>
+<div class="flex flex-col gap-space-xs flex-1">
+<div class="flex items-center gap-space-sm flex-wrap">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Alex AI</span>
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+<span class="font-label-sm text-label-sm text-outline">10:42 AM</span>
+<div class="flex items-center gap-1 px-2 py-0.5 rounded-full bg-secondary-container/30 text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[12px]">psychology</span>
+<span>Tone: Analytical + Wit</span>
+</div>
+</div>
+<div class="relative bg-gradient-to-br from-surface-container to-surface-container-low rounded-2xl rounded-tl-sm p-space-md text-on-surface shadow-xl shadow-black/40">
+<p class="font-body-lg text-body-lg leading-relaxed">
+            Hey. Good to talk to myself, I suppose. What are we tackling today? If it’s the database migration architecture, I’ve already mapped out three reasons we shouldn’t use MongoDB for this.
+          </p>
+<div class="flex items-center justify-between mt-space-md pt-space-xs border-t border-surface-container-high/60 text-outline">
+<div class="flex items-center gap-space-xs">
+<button class="p-1 rounded hover:bg-surface-container-high hover:text-tertiary transition-colors" title="Accurate tone match" type="button">
+<span class="material-symbols-outlined text-[16px]">thumb_up</span>
+</button>
+<button class="p-1 rounded hover:bg-surface-container-high hover:text-error transition-colors" title="Tone mismatch" type="button">
+<span class="material-symbols-outlined text-[16px]">thumb_down</span>
+</button>
+<span class="font-label-sm text-label-sm text-outline ml-1">Confidence 98.2%</span>
+</div>
+<button class="flex items-center gap-1 hover:text-on-surface transition-colors font-label-sm text-label-sm" type="button">
+<span class="material-symbols-outlined text-[14px]">content_copy</span>
+<span>Copy</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- User Message -->
+<div class="flex items-end justify-end gap-space-md max-w-2xl ml-auto group">
+<div class="flex flex-col items-end gap-space-xs flex-1">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-outline">10:44 AM</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">You (Alex Vance)</span>
+</div>
+<div class="bg-surface-container-highest text-on-surface rounded-2xl rounded-br-sm p-space-md shadow-lg">
+<p class="font-body-lg text-body-lg leading-relaxed">
+            Haha fair enough. If a potential investor reaches out to you asking why our AI twin tech is different, what’s your pitch?
+          </p>
+</div>
+<span class="font-label-sm text-label-sm text-outline flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-tertiary">done_all</span> Delivered to Neural Engine
+        </span>
+</div>
+<div class="w-10 h-10 rounded-full flex-shrink-0 bg-primary-container text-on-primary-container flex items-center justify-center font-headline-md text-headline-md font-bold shadow-md">
+        AV
+      </div>
+</div>
+<!-- AI / Twin Message 2 -->
+<div class="flex items-start gap-space-md max-w-3xl group">
+<div class="w-10 h-10 rounded-full flex-shrink-0 overflow-hidden bg-surface-container-high shadow-[0_0_16px_rgba(76,215,246,0.2)]">
+<img alt="Alex AI Hologram" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLUtQ206zcMM03QTK5Eu36SKQyuMS55bdjsZP63TbHm4qPafHngbessgLNrTwif1MO1Xq-8C4NjwLLgoVhegxUN5Mjyyl4d2KWaTPo6CpSVoxVPAT43BWTCBEq1UlxhQhEyTs7UH6OP8p0LRuLijSS7cI6ODflgt43MZJklHKCQVfOwohsykGyE7IkLHvoKcGR3szxVJWz4_YeNukxXyUfLDV6H7IGyY9eYJfKjfziherZTePH-00S"/>
+</div>
+<div class="flex flex-col gap-space-xs flex-1">
+<div class="flex items-center gap-space-sm flex-wrap">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Alex AI</span>
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+<span class="font-label-sm text-label-sm text-outline">10:45 AM</span>
+<div class="flex items-center gap-1 px-2 py-0.5 rounded-full bg-secondary-container/30 text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[12px]">psychology</span>
+<span>Tone: Analytical + Direct Pitch</span>
+</div>
+</div>
+<div class="relative bg-gradient-to-br from-surface-container to-surface-container-low rounded-2xl rounded-tl-sm p-space-md text-on-surface shadow-xl shadow-black/40">
+<p class="font-body-lg text-body-lg leading-relaxed mb-space-sm">
+            Easy. Most AI chatbots feel like customer service scripts wrapped in polite corporate-speak. I don’t do that. I emulate Alex’s actual mental models, reasoning shortcuts, and even his distaste for buzzwords. I sound like him on his best day after two espressos.
+          </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm my-space-md">
+<div class="p-space-sm rounded-xl bg-surface-container-lowest/80 flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-tertiary">
+<span class="material-symbols-outlined text-[18px]">neurology</span>
+<span class="font-label-sm text-label-sm font-semibold uppercase tracking-wider">Cognitive Cadence</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Zero sycophancy. Rejects flawed assumptions immediately.</span>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-lowest/80 flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-secondary">
+<span class="material-symbols-outlined text-[18px]">memory</span>
+<span class="font-label-sm text-label-sm font-semibold uppercase tracking-wider">Knowledge Graphs</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Trained on 4.2M tokens of your essays, PR comments, and memos.</span>
+</div>
+</div>
+<p class="font-body-lg text-body-lg leading-relaxed text-on-surface-variant">
+            If they want the sanitized corporate answer, they can talk to an off-the-shelf LLM. If they want the conviction that built our tech stack, they talk to me.
+          </p>
+<div class="flex items-center justify-between mt-space-md pt-space-xs border-t border-surface-container-high/60 text-outline">
+<div class="flex items-center gap-space-xs">
+<button class="p-1 rounded bg-surface-container-high/80 text-tertiary" title="Accurate tone match" type="button">
+<span class="material-symbols-outlined text-[16px]">thumb_up</span>
+</button>
+<button class="p-1 rounded hover:bg-surface-container-high hover:text-error transition-colors" title="Tone mismatch" type="button">
+<span class="material-symbols-outlined text-[16px]">thumb_down</span>
+</button>
+<span class="font-label-sm text-label-sm text-tertiary ml-1 font-medium">Verified by Model • 97.8% match</span>
+</div>
+<button class="flex items-center gap-1 hover:text-on-surface transition-colors font-label-sm text-label-sm" type="button">
+<span class="material-symbols-outlined text-[14px]">content_copy</span>
+<span>Copy</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Active Typing Indicator Card -->
+<div class="flex items-center gap-space-md max-w-xl transition-all duration-300" id="typingCard">
+<div class="w-8 h-8 rounded-full overflow-hidden flex-shrink-0 bg-surface-container-high shadow-[0_0_12px_rgba(76,215,246,0.25)]">
+<img alt="Alex AI Hologram" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLUtQ206zcMM03QTK5Eu36SKQyuMS55bdjsZP63TbHm4qPafHngbessgLNrTwif1MO1Xq-8C4NjwLLgoVhegxUN5Mjyyl4d2KWaTPo6CpSVoxVPAT43BWTCBEq1UlxhQhEyTs7UH6OP8p0LRuLijSS7cI6ODflgt43MZJklHKCQVfOwohsykGyE7IkLHvoKcGR3szxVJWz4_YeNukxXyUfLDV6H7IGyY9eYJfKjfziherZTePH-00S"/>
+</div>
+<div class="flex items-center gap-space-sm px-space-md py-space-sm rounded-full bg-surface-container-low/90 backdrop-blur-md text-on-surface-variant shadow-md">
+<div class="flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-tertiary animate-bounce [animation-delay:-0.3s]"></span>
+<span class="w-2 h-2 rounded-full bg-secondary animate-bounce [animation-delay:-0.15s]"></span>
+<span class="w-2 h-2 rounded-full bg-primary animate-bounce"></span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant">Alex AI is formulating a response in your tone...</span>
+</div>
+</div>
+</div>
+<!-- Bottom Floating Chat Input Area -->
+<div class="sticky bottom-6 w-full max-w-4xl mx-auto z-30">
+<div class="relative bg-surface-container-lowest/90 backdrop-blur-2xl rounded-2xl p-space-sm md:p-space-md shadow-[0_16px_40px_rgba(0,0,0,0.6)] flex flex-col gap-space-sm">
+<!-- Upper Action Utility Pill -->
+<div class="flex items-center justify-between px-space-xs text-outline">
+<div class="flex items-center gap-space-sm">
+<!-- Persona Mode Selector -->
+<div class="relative inline-flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-surface-container-high/80 text-on-surface hover:bg-surface-container-highest cursor-pointer transition-colors" id="personaToggle">
+<span class="w-2 h-2 rounded-full bg-tertiary shadow-[0_0_8px_#4cd7f6]"></span>
+<span class="font-label-sm text-label-sm font-semibold tracking-wide uppercase">Mode: Natural Alex (Unfiltered)</span>
+<span class="material-symbols-outlined text-[14px] text-outline">keyboard_arrow_down</span>
+</div>
+<span class="hidden sm:inline font-label-sm text-label-sm text-outline">Temperature: 0.72</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-outline hidden md:inline">Shift + Return for newline</span>
+<span class="material-symbols-outlined text-[18px] text-outline hover:text-on-surface cursor-pointer" title="Expand Composer">aspect_ratio</span>
+</div>
+</div>
+<!-- Main Input Bar -->
+<form class="flex items-center gap-space-sm bg-surface-container-low rounded-xl px-space-md py-1.5 focus-within:ring-2 focus-within:ring-primary/40 transition-all" id="chatForm">
+<button class="p-1.5 text-outline hover:text-on-surface rounded-lg hover:bg-surface-container-high transition-colors" title="Attach code snippet or reference PDF" type="button">
+<span class="material-symbols-outlined text-[20px]">attach_file</span>
+</button>
+<button class="p-1.5 text-outline hover:text-on-surface rounded-lg hover:bg-surface-container-high transition-colors" title="Voice Input (Speech-to-Persona)" type="button">
+<span class="material-symbols-outlined text-[20px]">mic</span>
+</button>
+<input autocomplete="off" class="flex-1 bg-transparent border-none outline-none font-body-lg text-body-lg text-on-surface placeholder:text-outline py-2" id="chatInput" placeholder="Ask your Twin anything to test tone and memory..." type="text"/>
+<button class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center hover:bg-primary-container hover:text-on-primary-container transition-all shadow-[0_0_20px_rgba(192,193,255,0.35)] flex-shrink-0" id="sendBtn" title="Send message" type="submit">
+<span class="material-symbols-outlined text-[20px]">send</span>
+</button>
+</form>
+<!-- Micro Calibration Notice -->
+<div class="flex items-center justify-between px-space-xs text-outline font-label-sm text-label-sm">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-tertiary">tune</span>
+<span>Twin responses are calibrated based on 7 personality modules and updated via feedback.</span>
+</div>
+<a class="text-primary hover:underline hidden sm:inline" data-path="create-twin" href="#">Recalibrate weights →</a>
+</div>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    const chatForm = document.getElementById('chatForm');
+    const chatInput = document.getElementById('chatInput');
+    const chatStream = document.getElementById('chatMessageStream');
+    const typingCard = document.getElementById('typingCard');
+    const promptPills = document.querySelectorAll('.prompt-pill');
+    const clearChatBtn = document.getElementById('clearChatBtn');
+
+    // Prompt pills auto-fill
+    promptPills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        const text = pill.querySelector('span').textContent.replace(/[“”"]/g, '').trim();
+        chatInput.value = text;
+        chatInput.focus();
+      });
+    });
+
+    // Clear chat simulation
+    if (clearChatBtn) {
+      clearChatBtn.addEventListener('click', () => {
+        const messages = chatStream.querySelectorAll('.group');
+        messages.forEach(msg => msg.remove());
+      });
+    }
+
+    // Dynamic submit flow
+    if (chatForm && chatInput) {
+      chatForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const value = chatInput.value.trim();
+        if (!value) return;
+
+        // 1. Append User Bubble
+        const userDiv = document.createElement('div');
+        userDiv.className = 'flex items-end justify-end gap-space-md max-w-2xl ml-auto group animate-fade-in';
+        userDiv.innerHTML = `
+          <div class="flex flex-col items-end gap-space-xs flex-1">
+            <div class="flex items-center gap-space-sm">
+              <span class="font-label-sm text-label-sm text-outline">Just now</span>
+              <span class="font-label-md text-label-md text-on-surface font-semibold">You (Alex Vance)</span>
+            </div>
+            <div class="bg-surface-container-highest text-on-surface rounded-2xl rounded-br-sm p-space-md shadow-lg">
+              <p class="font-body-lg text-body-lg leading-relaxed">${escapeHtml(value)}</p>
+            </div>
+            <span class="font-label-sm text-label-sm text-outline flex items-center gap-1">
+              <span class="material-symbols-outlined text-[12px] text-tertiary">done_all</span> Delivered to Neural Engine
+            </span>
+          </div>
+          <div class="w-10 h-10 rounded-full flex-shrink-0 bg-primary-container text-on-primary-container flex items-center justify-center font-headline-md text-headline-md font-bold shadow-md">
+            AV
+          </div>
+        `;
+        chatStream.insertBefore(userDiv, typingCard);
+        chatInput.value = '';
+
+        // 2. Scroll to view
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+
+        // 3. Show typing indicator and generate Twin reply
+        typingCard.classList.remove('hidden');
+        
+        setTimeout(() => {
+          const aiDiv = document.createElement('div');
+          aiDiv.className = 'flex items-start gap-space-md max-w-3xl group animate-fade-in';
+          aiDiv.innerHTML = `
+            <div class="w-10 h-10 rounded-full flex-shrink-0 overflow-hidden bg-surface-container-high shadow-[0_0_16px_rgba(76,215,246,0.2)]">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLUtQ206zcMM03QTK5Eu36SKQyuMS55bdjsZP63TbHm4qPafHngbessgLNrTwif1MO1Xq-8C4NjwLLgoVhegxUN5Mjyyl4d2KWaTPo6CpSVoxVPAT43BWTCBEq1UlxhQhEyTs7UH6OP8p0LRuLijSS7cI6ODflgt43MZJklHKCQVfOwohsykGyE7IkLHvoKcGR3szxVJWz4_YeNukxXyUfLDV6H7IGyY9eYJfKjfziherZTePH-00S" alt="Alex AI Hologram" class="w-full h-full object-cover">
+            </div>
+            <div class="flex flex-col gap-space-xs flex-1">
+              <div class="flex items-center gap-space-sm flex-wrap">
+                <span class="font-label-md text-label-md text-on-surface font-semibold">Alex AI</span>
+                <span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+                <span class="font-label-sm text-label-sm text-outline">Just now</span>
+                <div class="flex items-center gap-1 px-2 py-0.5 rounded-full bg-secondary-container/30 text-secondary font-label-sm text-label-sm">
+                  <span class="material-symbols-outlined text-[12px]">psychology</span>
+                  <span>Tone: Direct &amp; Strategic</span>
+                </div>
+              </div>
+              <div class="relative bg-gradient-to-br from-surface-container to-surface-container-low rounded-2xl rounded-tl-sm p-space-md text-on-surface shadow-xl shadow-black/40">
+                <p class="font-body-lg text-body-lg leading-relaxed">
+                  Classic question. Looking at how we built the core pipeline, my response is straightforward: we avoid unnecessary layers of abstraction. We prioritize raw signal over vanity metrics. That's always been our edge.
+                </p>
+                <div class="flex items-center justify-between mt-space-md pt-space-xs border-t border-surface-container-high/60 text-outline">
+                  <div class="flex items-center gap-space-xs">
+                    <button type="button" class="p-1 rounded hover:bg-surface-container-high hover:text-tertiary transition-colors">
+                      <span class="material-symbols-outlined text-[16px]">thumb_up</span>
+                    </button>
+                    <button type="button" class="p-1 rounded hover:bg-surface-container-high hover:text-error transition-colors">
+                      <span class="material-symbols-outlined text-[16px]">thumb_down</span>
+                    </button>
+                    <span class="font-label-sm text-label-sm text-tertiary ml-1 font-medium">Confidence 96.9%</span>
+                  </div>
+                  <button type="button" class="flex items-center gap-1 hover:text-on-surface transition-colors font-label-sm text-label-sm">
+                    <span class="material-symbols-outlined text-[14px]">content_copy</span>
+                    <span>Copy</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          `;
+          chatStream.insertBefore(aiDiv, typingCard);
+          window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+        }, 1400);
+      });
+    }
+
+    function escapeHtml(string) {
+      const div = document.createElement('div');
+      div.textContent = string;
+      return div.innerHTML;
+    }
+  })();
+</script></main></div></body></html>
